@@ -17,9 +17,9 @@ body {
   padding: 15px;
 }
 
-h1 {
-  font-size: 3vw;
-  padding-left: 2vw;
+header img {
+  width: 20%;
+  height: auto;
 }
 
 #nav {
@@ -104,6 +104,10 @@ p {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
+    width: 100%;
+  }
+
+  header img {
     width: 100%;
   }
 }
